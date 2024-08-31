@@ -12,6 +12,7 @@
             font-family: 'Glacial Indifference', sans-serif;
             touch-action: pan-y;
         }
+      
         .card-stack {
             perspective: 1000px;
         }
@@ -68,7 +69,7 @@
 <body class="bg-white">
     <nav class="flex justify-between items-center space-x-3 bg-white/60 backdrop-blur-lg sticky top-0 z-50 px-2 py-3 shadow-md md:px-20">
         <img src="./assests/images/WEBSITE_PICS-images-17-removebg-preview.png" class="h-12 md:h-20 md:pl-10"></img>
-        <button  id="startButton" class=" md:hidden bg-button text-white px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition duration-300 text-text font-bold md:text-2xl md:ml-40">Get your Diet plan</button>
+        <button  id="startButton" class=" md:hidden bg-button text-white px-4 py-2 rounded-full shadow-lg hover:shadow-xl transition duration-300 text-text  md:text-2xl md:ml-40">Get your Diet plan</button>
         <button id="infoButton1" class="hidden md:block bg-button text-white text-2xl font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300">Get your Diet plan now</button>
     </nav>
 
@@ -93,16 +94,16 @@
         <div class="hidden md:flex lg:flex relative mt-7 h-[680px]">
             <div class="m-3 pl-20">
               <h1 class="flex-1 font-bold text-6xl lg:text-6xl">Doctor Recommended Diabetes App</h1>
-              <h1 class="text-6xl my-12 lg:my-14">Get your Diet and fitness plan <br>for Diabetes<br></h1>
+              <h1 class="text-6xl my-12 lg:my-14">Get your Diet and Fitness plan <br>for Diabetes<br></h1>
               <div class="w-1/4 border-t-8 border-black mb-6 rounded-2xl"></div>
               <h1 class="text-4xl my-10">95% saw Best Results in 3 weeks<br> when followed consistently*<br></h1>
-              <button id="infoButton1" class="bg-button text-white text-3xl font-bold px-8 py-4 rounded-md shadow-lg justify-center hover:shadow-xl transition duration-300">Get your Diet plan now</button>
+              <button id="infoButton1Desk" class="bg-button text-white text-3xl font-bold px-8 py-4 rounded-md shadow-lg justify-center hover:shadow-xl transition duration-300">Get your Diet plan now</button>
             </div>
             <div class="absolute bottom-0 right-0 ">
               <img src="assests\img\Untitled design (3).png" class="h-[700px] w-[950px]">
             </div>
         </div>
-        <div class="hidden md:block w-full border-t-8 border-gray-300 mb-6 "></div>
+        
         <!--Page 2-->
         <!--phone view-->
         <section class="relative w-full overflow-hidden rounded-lg mb-6 md:hidden">
@@ -128,7 +129,7 @@
               <p class="p-4 text-3xl text-center mb-[75px] ">
                 Our Diabetecure App is created based on the findings & guidance <br> of ICMR (Indian Council of Medical Research),Researches,<br> Panel of Doctors, Nutritionists & Fitness coaches.
               </p>
-              <button id="infoButton2" class="mx-auto  bg-button text-white text-3xl font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300">
+              <button id="infoButton2Desk" class="mx-auto  bg-button text-white text-3xl font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300">
                 Get your Diet plan now
               </button>
             </div>
@@ -136,7 +137,7 @@
                 <img src="assests\img\WEBSITE PICS (5).png" class="h-[350px] w-[600px]">
             </div> 
         </div>
-        <div class="hidden md:block w-full border-t-8 border-gray-300 mb-6 "></div>
+        
           
         
         
@@ -146,68 +147,77 @@
         
         <!--What we Provide Phonne view-->
         <!--Phone view-->
-        <section class="bg-white mb-1 p-4 overflow-hidden md:hidden">
-            
-            <div class="card-stack relative h-[530px] ">
-                <div class="card rounded-lg p-4 transform space-y-1">
-                    <img src="assests\img\WEBSITE PICS (7).png" class="ml-6">
-                    <h3 class="font-semibold text-lg text-center mt-3 italic">Task based Diet & Fitness plan will be provided</h3>
-                    <p class="text-center text-text italic font-bold">(Meals, Food Timing, Food Measures, Exercise)</p>
+        <section class="relative bg-white my-2 p-4 overflow-hidden">
+            <div class="hidden md:inline-block md:absolute md:left-[-5%] md:top-8 bg-wwp text-white text-3xl font-bold pl-[90px] p-10 rounded-full shadow-lg py-5 pr-5 text-center italic"><h1 class="pr-5">What We Provide?</h1></div>
+            <div class="card-stack relative h-[530px] md:h-[495px] ">
+                <div class="card rounded-lg px-4 transform space-y-1">
+                    <img src="assests\img\WEBSITE PICS (7).png" class="ml-6 md:h-[405px] md:ml-[560px] ">
+                    <h3 class="font-semibold text-lg text-center mt-3 italic md:text-[30px] md:my-1">Task based Diet & Fitness plan will be provided</h3>
+                    <p class="text-center text-text italic font-bold md:text-[25px] md:mt-3">(Meals, Food Timing, Food Measures, Exercise)</p>
                 </div>
                 <div class="card rounded-lg p-4 transform space-y-1 ">
-                    <img src="assests\img\WEBSITE PICS (8).png">
-                    <h3 class="font-semibold text-lg  text-center italic">Experience the Personalized South Indian based diet with Traditional Touch</h3>
-                    <p class="text-center text-text italic font-bold">(Diet based on affordable Daily food & <br>Traditional method )<br></p>
+                    <img src="assests\img\WEBSITE PICS (8).png" class="md:h-[380px] md:mx-auto">
+                    <h3 class=" font-semibold text-lg  text-center italic md:text-3xl">Experience the Personalized South Indian based diet with Traditional Touch</h3>
+                    <p class="md:hidden text-center text-text italic font-bold">(Diet based on affordable Daily food & <br>Traditional method )<br></p>
+                    <p class="hidden md:block text-center text-text italic font-bold md:text-[25px]">(Diet based on affordable Daily food & Traditional method )</p>
                 </div>
-                <div class="card rounded-lg p-4 transform">
-                    <img src="assests\img\WEBSITE PICS (9).png" class="mb-3">
-                    <h3 class="font-semibold text-lg text-center italic">No more Boring Strict Monotonous<br> Diet pattern!<br></h3>
-                    <p class="text-center italic font-bold text-text mt-2">(Get a New Healthy Diet every week<br> based on Sugar Level)<br></p>
+                <div class="card rounded-lg p-4 transform md:mb-5">
+                    <img src="assests\img\WEBSITE PICS (9).png" class="mb-3 md:h-[385px] md:mx-auto md:mb-0">
+                    <h3 class="md:hidden font-semibold text-lg text-center italic">No more Boring Strict Monotonous<br> Diet pattern!<br></h3>
+                    <h3 class="hidden md:block font-semibold text-[30px] text-center italic">No more Boring Strict Monotonous Diet pattern!</h3>
+                    <p class="md:hidden text-center italic font-bold text-text mt-2">(Get a New Healthy Diet every week<br> based on Sugar Level)<br></p>
+                    <p class="hidden md:block text-center italic font-bold text-text  text-[25px]">(Get a New Healthy Diet every week based on Sugar Level)</p>
                 </div>
 
-                <div class="card rounded-lg p-4 transform space-y-2">
-                    <img src="assests\img\WEBSITE PICS (10).png" >
-                    <h3 class="font-semibold text-lg text-center italic ">Beat Diabetes through Diabetecure’s<br> 4R Method<br></h3>
-                    <p class="text-center italic font-bold text-text">(Regimen, Replace, Reinforce, Rebirth)</p>
+                <div class="card rounded-lg p-4 transform space-y-2 md:space-y-0">
+                    <img src="assests\img\WEBSITE PICS (10).png" class="md:h-[385px] md:mx-auto">
+                    <h3 class="md:hidden font-semibold text-lg text-center italic ">Beat Diabetes through Diabetecure’s<br> 4R Method<br></h3>
+                    <h3 class="hidden md:block font-semibold text-[30px] text-center italic ">Beat Diabetes through Diabetecure’s 4R Method</h3>
+                    <p class="text-center italic font-bold text-text md:text-[25px]">(Regimen, Replace, Reinforce, Rebirth)</p>
                 </div>
 
                 <div class="card rounded-lg p-4 transform space-y-3">
-                    <img src="assests\img\WEBSITE PICS (11).png">
-                    <h3 class="font-semibold text-lg text-center italic">Track your Health Status</h3>
-                    <p class="text-center italic font-bold text-text">(Health Data Graph will be displayed <br>to track your Sugar Level)<br</p>
+                    <img src="assests\img\WEBSITE PICS (11).png" class="md:h-[380px] md:mx-auto">
+                    <h3 class="font-semibold text-lg text-center italic md:text-[30px]">Track your Health Status</h3>
+                    <p class="md:hidden text-center italic font-bold text-text">(Health Data Graph will be displayed <br>to track your Sugar Level)<br</p>
+                    <p class="text-center italic font-bold text-text text-[25px]">(Health Data Graph will be displayed to track your Sugar Level)</p>
                 </div>
                 
                 
-                <div class="card rounded-lg p-4 transform space-y-3">
-                    <img src="assests\img\WEBSITE PICS (12).png" class="">
-                    <h3 class="font-semibold text-lg text-center italic">We are your Healthy Notification</h3>
-                    <p class="text-center italic font-bold text-text">(Rectify your Unhealthy eating pattern<br> as we Notify)<br></p>
+                <div class="card rounded-lg p-4 transform space-y-3 md:space-y-2">
+                    <img src="assests\img\WEBSITE PICS (12).png" class="md:h-[380px] md:mx-auto">
+                    <h3 class="font-semibold text-lg text-center italic md:text-[30px] md:pt-3">We are your Healthy Notification</h3>
+                    <p class="hidden text-center italic font-bold text-text">(Rectify your Unhealthy eating pattern<br> as we Notify)<br></p>
+                    <p class="text-center italic font-bold text-text text-[25px]">(Rectify your Unhealthy eating pattern as we Notify)</p>
+                </div>
+                <div class="card rounded-lg p-4 transform md:space-y-3">
+                    <img src="assests\img\WEBSITE PICS (13).png" class="md:h-[380px] md:mx-auto md:mb-3">
+                    <h3 class="font-semibold text-lg text-center italic md:text-[30px]">Learn and Unlearn all about Diabetes through Infotainment</h3>
+                    <p class="text-center italic font-bold text-text md:text-[25px]">(Get to know Tips, Tricks, Do’s & Don’ts of Health through our Infotainment section)</p>
                 </div>
                 <div class="card rounded-lg p-4 transform">
-                    <img src="assests\img\WEBSITE PICS (13).png">
-                    <h3 class="font-semibold text-lg text-center italic">Learn and Unlearn all about Diabetes through Infotainment</h3>
-                    <p class="text-center italic font-bold text-text">(Get to know Tips, Tricks, Do’s & Don’ts of Health through our Infotainment section)</p>
+                    <img src="assests\img\WEBSITE PICS (14).png" class="md:h-[380px] md:mx-auto">
+                    <h3 class="font-semibold text-lg text-center italic md:text-[30px] md:mt-2">We care for your Mental Health</h3>
+                    <p class="text-center italic font-bold mt-6 text-text md:text-[25px] md:mt-2">(Our Affirmation & Motivation posts will Strengthen you Physically & Mentally )</p>
                 </div>
                 <div class="card rounded-lg p-4 transform">
-                    
-                    <img src="assests\img\WEBSITE PICS (14).png">
-                    <h3 class="font-semibold text-lg text-center italic">We care for your Mental Health</h3>
-                    <p class="text-center italic font-bold mt-6 text-text">(Our Affirmation & Motivation posts will Strengthen you Physically & Mentally )</p>
-                </div>
-                <div class="card rounded-lg p-4 transform">
-                    <img src="assests\img\WEBSITE PICS (15).png">
-                    <h3 class="font-semibold text-lg text-center italic">Language Options</h3>
-                    <p class="text-center italic font-bold mt-6 text-text">Now Diabetecure App is available<br> in both English & Tamil<br></p>
+                    <img src="assests\img\WEBSITE PICS (15).png" class="md:h-[380px] md:mx-auto">
+                    <h3 class="font-semibold text-lg text-center italic md:text-[30px] md:mt-2">Language Options</h3>
+                    <p class="hidden text-center italic font-bold mt-6 text-text">Now Diabetecure App is available<br> in both English & Tamil<br></p>
+                    <p class="text-center italic font-bold mt-6 text-text text-[25px]">Now Diabetecure App is available in both English & Tamil</p>
                 </div>
             </div>
             
             <div class="flex justify-between">
-                <button id="prevBtn" class="bg-button text-white px-4 py-2 rounded-full">&lt; Prev</button>
-                <button id="nextBtn" class="bg-button text-white px-4 py-2 rounded-full">Next &gt;</button>
+                <button id="prevBtn" class="bg-button text-white px-4 py-2 rounded-full md:absolute md:left-[220px] md:top-[220px] md:text-5xl md:bg-white md:text-black md:bg-white"><a class="md:hidden">&lt;Prev</a> <img src="assests\img\left.png" class="hidden md:block h-20 "></button>
+                <button id="nextBtn" class="bg-button text-white px-4 py-2 rounded-full md:absolute md:right-[220px] md:top-[220px] bg-button md:bg-white"><a class="md:hidden">Next &gt;</a> <img src="assests\img\right.png" alt="" class="hidden md:block h-20"></button>
+                
             </div>
         </section>
+        <!--Desktop view-->
+        
 
-        <div class="flex flex-col mb-9 md:hidden">
+        <div class="flex flex-col mb-6 ">
             <button  id="infoButton4" class="mx-auto bg-button text-white text-lg font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300 ">Get your Diet plan now</button>
         </div>
         <!--Journey-->
@@ -271,8 +281,8 @@
             
             
         </section>
-        <button  id="infoButton2" class="hidden md:block mt-20 mx-auto bg-button text-white text-lg font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300 ">Get your Diet plan now</button>
-        <div class="hidden md:block w-full border-t-8 border-gray-300 my-20 "></div>
+        <button  id="infoButton3Desk" class="hidden md:block mt-20 mx-auto bg-button text-white text-lg font-bold px-6 py-2 rounded-md shadow-lg hover:shadow-xl transition duration-300 ">Get your Diet plan now</button>
+        <div class=" my-20 "></div>
 
         <!--FAQ-->
         <!--phone view-->
@@ -308,22 +318,18 @@
             <img src="assests\img\Pop Up Website.png" >
         </section>
 
-        <div id="popup" class="fixed inset-0 bg-[#009845] rounded-2xl items-center justify-center hidden my-auto bg-opacity-70">
-            <div class="fixed inset-0 bg-container flex flex-col rounded-lg p-8 max-w-md w-50">
-                <!--<img src="assests\img\Diabetecure Logo (8).png" alt="Background Image" class="h-full">-->
-                <div class=" flex flex-row gap-8 mb-1">
-                    <h2 class="text-xl font-bold ">TELL US ABOUT YOURSELF!</h2>
-                    <button id="closeButton" class="text-white hover:text-gray-300">
+        <div id="popup" class="fixed inset-0 bg-[#009846] bg-opacity-70 md:bg-black md:bg-opacity-70 flex items-center justify-center hidden ">
+            <div class="bg-white rounded-lg p-8 max-w-md w-50 md:w-[800px] shadow-2xl md:shadow-none ">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-[25px] text-center font-bold">TELL US ABOUT YOURSELF!</h2>
+                    <button id="closeButton" class="text-gray-500 hover:text-gray-700">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                     </button>
                 </div>
-                <img src="assests\img\Diabetecure Logo (4).png" class="mt-38">
-                <div class="flex flex-col justify-between items-center my-8 ">
-                    
-                </div>
                 <div id="progressContainer" class="mb-4 flex space-x-1"></div>
-                <h3 id="question" class="text-lg font-semibold mb-4"></h3>
-                <div id="options" class="space-y-2"></div>
+                <h3 id="question" class="text-xl font-semibold mb-4"></h3>
+                <div id="options" class="space-y-2 text-xl"></div>
+                <p id="ind"></p>
                 <div class="mt-6 flex justify-end">
                     <button id="nextButton" class="bg-gray-300 text-gray-500 font-bold py-2 px-4 rounded cursor-not-allowed" disabled>
                         Next
@@ -331,6 +337,10 @@
                 </div>
             </div>
         </div>
+        
+        
+        
+        
         <!--social media-->
         <div class="flex flex-row  pb-10 md:mx-auto md:justify-center">
             <div onclick="redirectToUtube()" class="mt-10">
@@ -352,7 +362,7 @@
           
         
     </main>
-    <footer class="md:hidden bg-[#374f59] text-white p-8">
+    <footer class="md:hidden bg-[#374f59] text-white p-8 ">
         <div class="container">
            
             <div class="flex flex-col md:flex-row justify-between ">
@@ -418,7 +428,7 @@
     </footer>
 
     <!--desktop-->
-    <footer class="hidden md:block bg-[#374f59] text-white py-8 h-[480px]">
+    <footer class="hidden md:block bg-[#374f59] text-white py-8 h-[480px] md:py-20">
         <div class="container mx-auto mt-10">
             <div class="flex flex-col md:flex-row justify-between ">
                 <!-- Legal links -->
@@ -566,150 +576,154 @@
         
         // Pop-up
         const questions = [
-            {
-                question: "How long have you had Diabetes?",
-                options: ["More than 5 years", "1 to 5 years", "Less than 1 year"]
-            },
-            {
-                question: "Update your current sugar level?",
-                options: ["140 - 199 mg/dL", "200 - 299 mg/dL", "300 - 399 mg/dL", "400 mg/dL & above"]
-            },
-            {
-                question: "Update your HbA1C level?",
-                options: ["Less than 6%", "6% to 7%", "7% to 8%", "9% & above"]
-            },
-            {
-                question: "What is your Lifestyle Status?",
-                options: ["Sedentary", "Moderate", "Active"]
-            },
-            {
-                question: "Choose your Food Preference for your Diet",
-                options: ["Vegetarian + Egg", "Non Vegetarian", "Vegetarian"]
-            },
-            {
-                question: "Are you under any medication?",
-                options: ["Yes", "No"]
-            }
-        ];
-
-        let currentQuestion = 0;
-        let selectedOption = null;
-
-        const startButton = document.getElementById('startButton');
-        const infoButton1 = document.getElementById('infoButton1');
-        const infoButton2 = document.getElementById('infoButton2');
-        const infoButton3 = document.getElementById('infoButton3');
-        const infoButton4 = document.getElementById('infoButton4');
-        const infoButton5 = document.getElementById('infoButton5');
-        const popup = document.getElementById('popup');
-        const textElem = document.getElementById('textElem');
-        const closeButton = document.getElementById('closeButton');
-        const questionElement = document.getElementById('question');
-        const optionsElement = document.getElementById('options');
-        const nextButton = document.getElementById('nextButton');
-        const progressContainer = document.getElementById('progressContainer');
-
-        function createProgressBar() {
-            progressContainer.innerHTML = '';
-            for (let i = 0; i < questions.length; i++) {
-                const bar = document.createElement('div');
-                bar.className = 'h-2 flex-1 bg-gray-300 rounded-full';
-                progressContainer.appendChild(bar);
-            }
+        {
+            question: "How long have you had Diabetes?",
+            options: ["More than 5 years", "1 to 5 years", "Less than 1 year"]
+        },
+        {
+            question: "Update your current sugar level?",
+            options: ["140 - 199 mg/dL", "200 - 299 mg/dL", "300 - 399 mg/dL", "400 mg/dL & above"]
+        },
+        {
+            question: "Update your HbA1C level?",
+            options: ["Less than 6%", "6% to 7%", "7% to 8%", "9% & above"]
+        },
+        {
+            question: "What is your Lifestyle Status?",
+            options: ["Sedentary", "Moderate", "Active"]
+        },
+        {
+            question: "Choose your Food Preference for your Diet",
+            options: ["Vegetarian + Egg", "Non Vegetarian", "Vegetarian"]
+        },
+        {
+            question: "Are you under any medication?",
+            options: ["Yes", "No"]
         }
+    ];
 
-        function updateProgressBar() {
-            const progressBars = progressContainer.querySelectorAll('div');
-            progressBars.forEach((bar, index) => {
-                if (index <= currentQuestion) {
-                    bar.classList.remove('bg-gray-300');
-                    bar.classList.add('bg-blue-600');
+    let currentQuestion = 0;
+    let selectedOption = null;
+
+    const startButton = document.getElementById('startButton');
+    const infoButton1 = document.getElementById('infoButton1');
+    const infoButton2 = document.getElementById('infoButton2');
+    const infoButton3 = document.getElementById('infoButton3');
+    const infoButton4 = document.getElementById('infoButton4');
+    const infoButton5 = document.getElementById('infoButton5');
+    const popup = document.getElementById('popup');
+    const textElem = document.getElementById('textElem');
+    const closeButton = document.getElementById('closeButton');
+    const questionElement = document.getElementById('question');
+    const optionsElement = document.getElementById('options');
+    const nextButton = document.getElementById('nextButton');
+    const progressContainer = document.getElementById('progressContainer');
+
+    function createProgressBar() {
+        progressContainer.innerHTML = '';
+        for (let i = 0; i < questions.length; i++) {
+            const bar = document.createElement('div');
+            bar.className = 'h-2 flex-1 bg-gray-300 rounded-full';
+            progressContainer.appendChild(bar);
+        }
+    }
+
+    function updateProgressBar() {
+        const progressBars = progressContainer.querySelectorAll('div');
+        progressBars.forEach((bar, index) => {
+            if (index <= currentQuestion) {
+                bar.classList.remove('bg-gray-300');
+                bar.classList.add('bg-blue-600');
+            } else {
+                bar.classList.remove('bg-blue-600');
+                bar.classList.add('bg-gray-300');
+            }
+        });
+    }
+
+    function showQuestion() {
+        const q = questions[currentQuestion];
+        questionElement.textContent = q.question;
+        optionsElement.innerHTML = '';
+        selectedOption = null;
+        nextButton.disabled = true;
+        nextButton.classList.remove('bg-blue-500', 'hover:bg-blue-700', 'text-white');
+        nextButton.classList.add('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
+
+        q.options.forEach((option, index) => {
+            const label = document.createElement('label');
+            label.className = 'flex items-center space-x-2 p-2 rounded bg-gray-100 hover:bg-gray-200 cursor-pointer';
+            
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.name = 'option';
+            checkbox.value = option;
+            checkbox.className = 'form-checkbox h-5 w-5 bg-black';
+            
+            const span = document.createElement('span');
+            span.textContent = option;
+            
+            label.appendChild(checkbox);
+            label.appendChild(span);
+            
+            checkbox.onchange = (e) => {
+                const checkboxes = document.querySelectorAll('input[name="option"]');
+                checkboxes.forEach(cb => {
+                    if (cb !== e.target) cb.checked = false;
+                });
+                selectedOption = e.target.checked ? e.target.value : null;
+                nextButton.disabled = !selectedOption;
+                if (selectedOption) {
+                    nextButton.classList.remove('bg-gray-300', 'cursor-not-allowed');
+                    nextButton.classList.add('bg-[#009846]', 'text-white');
+                    label.style.backgroundColor = 'rgba(0, 152, 70, 0.5)';
+                    label.style.color = 'white';
                 } else {
-                    bar.classList.remove('bg-blue-600');
-                    bar.classList.add('bg-gray-300');
+                    nextButton.classList.remove('bg-[#009846]', 'text-white');
+                    nextButton.classList.add('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
+                    label.style.backgroundColor = '';
+                    label.style.color = '';
                 }
-            });
-        }
-
-        function showQuestion() {
-            const q = questions[currentQuestion];
-            questionElement.textContent = q.question;
-            optionsElement.innerHTML = '';
-            selectedOption = null;
-            nextButton.disabled = true;
-            nextButton.classList.remove('bg-blue-500', 'hover:bg-blue-700', 'text-white');
-            nextButton.classList.add('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
-
-            q.options.forEach((option, index) => {
-                const label = document.createElement('label');
-                label.className = 'flex items-center space-x-2 p-2 rounded bg-gray-100 hover:bg-gray-200 cursor-pointer';
-                
-                const checkbox = document.createElement('input');
-                checkbox.type = 'checkbox';
-                checkbox.name = 'option';
-                checkbox.value = option;
-                checkbox.className = 'form-checkbox h-5 w-5 text-blue-600';
-                
-                const span = document.createElement('span');
-                span.textContent = option;
-                
-                label.appendChild(checkbox);
-                label.appendChild(span);
-                
-                checkbox.onchange = (e) => {
-                    const checkboxes = document.querySelectorAll('input[name="option"]');
-                    checkboxes.forEach(cb => {
-                        if (cb !== e.target) cb.checked = false;
-                    });
-                    selectedOption = e.target.checked ? e.target.value : null;
-                    nextButton.disabled = !selectedOption;
-                    if (selectedOption) {
-                        nextButton.classList.remove('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
-                        nextButton.classList.add('bg-blue-500', 'hover:bg-blue-700', 'text-white');
-                    } else {
-                        nextButton.classList.remove('bg-blue-500', 'hover:bg-blue-700', 'text-white');
-                        nextButton.classList.add('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
-                    }
-                };
-                
-                optionsElement.appendChild(label);
-            });
-
-            nextButton.textContent = currentQuestion === questions.length - 1 ? "Finish" : "Next";
-            updateProgressBar();
-        }
-
-        function showPopup() {
-            popup.classList.remove('hidden');
-            textElem.classList.add('hidden');
-            createProgressBar();
-            showQuestion();
-        };
-        [startButton, infoButton1, infoButton2, infoButton3,infoButton4,infoButton5].forEach(button => {
-            button.onclick = showPopup;
+            };
+            
+            optionsElement.appendChild(label);
         });
 
-        closeButton.onclick = () => {
-            popup.classList.add('hidden');
-            textElem.classList.remove('hidden');
-            currentQuestion = 0;
-            updateProgressBar();
-        };
+        nextButton.textContent = currentQuestion === questions.length - 1 ? "Finish" : "Next";
+        updateProgressBar();
+    }
 
-        nextButton.onclick = () => {
-            if (selectedOption) {
-                currentQuestion++;
-                if (currentQuestion < questions.length) {
-                    showQuestion();
-                } else {
-                    popup.classList.add('hidden');
-                    textElem.classList.remove('hidden');
-                    currentQuestion = 0;
-                    updateProgressBar();
-                    //New page open here 
-                }
+    function showPopup() {
+        popup.classList.remove('hidden');
+        textElem.classList.add('hidden');
+        createProgressBar();
+        showQuestion();
+    };
+    [startButton, infoButton1, infoButton2, infoButton3,infoButton4,infoButton5].forEach(button => {
+        button.onclick = showPopup;
+    });
+
+    closeButton.onclick = () => {
+        popup.classList.add('hidden');
+        textElem.classList.remove('hidden');
+        currentQuestion = 0;
+        updateProgressBar();
+    };
+
+    nextButton.onclick = () => {
+        if (selectedOption) {
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                showQuestion();
+            } else {
+                popup.classList.add('hidden');
+                textElem.classList.remove('hidden');
+                currentQuestion = 0;
+                updateProgressBar();
+                //New page open here 
             }
-        };
+        }
+    };
 
         //faq slider
         const slider = document.querySelector('.slider-container');
